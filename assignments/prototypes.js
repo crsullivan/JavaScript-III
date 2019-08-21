@@ -17,7 +17,7 @@
 */
 
 function GameObject(attributes){
-  this.time = attributes.Date,
+  this.createdAt = attributes.createdAt,
   this.name = attributes.name,
   this.dimensions = attributes.dimensions
   
